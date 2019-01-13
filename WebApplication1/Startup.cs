@@ -12,7 +12,8 @@ namespace WebApplication1 {
         public Startup(IConfiguration configuration) {
             this.Configuration = configuration;
         }
-
+        // my changes to startup.cs. 
+        //my work is done here
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services) {
